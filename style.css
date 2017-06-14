@@ -23,12 +23,15 @@ p{
 img{
   display: inline-block;
   height: 40px;
-  padding: 10px 10px 0px 0px;
+  padding: 10px;
   width: 40px;
 }
 div{
+  box-sizing: border-box;
+  display: block;
   margin: auto;
-  width: 110px;
+  text-align: center;
+  width: auto;
 }
 @media (min-width:320px) {
   p{
