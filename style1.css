@@ -1,4 +1,7 @@
-
+body{
+  background: black;
+  color: white;
+}
 h1,h2{
   font-family: Jaldi;
   font-weight: bold;
@@ -17,12 +20,14 @@ p{
   font-weight: bold;
 }
 .profession{
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #ffffff;
   padding-bottom: 0px;
 }
 img{
+  color: white;
   display: inline-block;
   height: 40px;
+  filter: invert(100%);
   padding: 10px;
   width: 40px;
 }
@@ -41,7 +46,7 @@ div{
   top: -1em;
 }
 a{
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 @media (min-width:320px) {
