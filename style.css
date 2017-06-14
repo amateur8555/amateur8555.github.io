@@ -1,0 +1,32 @@
+
+h1,h2{
+  font-family: Jaldi;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: center;
+}
+p{
+  font-family: Jaldi;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.name{
+  font-family: Bubbler One;
+  font-weight: bold;
+}
+.profession{
+  border-bottom: 3px solid black;
+  padding-bottom: 0px;
+}
+img{
+  display: inline-block;
+  height: 40px;
+  padding: 10px 10px 0px 0px;
+  width: 40px;
+}
+div{
+  margin: auto;
+  width: 110px;
+}
