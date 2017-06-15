@@ -57,3 +57,10 @@ a{
     font-size: 2em;
   }
 }
+.language{
+  font-family: Jaldi;
+  letter-spacing: 3px;
+  position: absolute;
+  left: 0.5em;
+  top: -1em;
+}

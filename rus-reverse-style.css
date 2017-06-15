@@ -2,21 +2,27 @@ body{
   background: black;
   color: white;
 }
-h1,h2{
+h1{
   font-family: Jaldi;
+}
+h2{
+  font-family: Yanone Kaffeesatz;
+}
+h1,h2{
   font-weight: bold;
   letter-spacing: 5px;
   text-align: center;
 }
 p{
-  font-family: Jaldi;
+  font-family: PT Sans Narrow;
   font-size: 2em;
   font-weight: bold;
   letter-spacing: 3px;
+  line-height: 1.75em;
   text-align: center;
 }
 .name{
-  font-family: Bubbler One;
+  font-family: Comfortaa;
   font-weight: bold;
 }
 .profession{
@@ -49,14 +55,6 @@ a{
   color: #ffffff;
   text-decoration: none;
 }
-.language{
-  font-family: Jaldi;
-  letter-spacing: 3px;
-  position: absolute;
-  left: 0.5em;
-  top: -1em;
-}
-
 @media (min-width:320px) {
   h1{
     font-size: 1.8em;
@@ -69,4 +67,11 @@ a{
   p{
     font-size: 2em;
   }
+}
+.language{
+  font-family: Jaldi;
+  letter-spacing: 3px;
+  position: absolute;
+  left: 0.5em;
+  top: -1em;
 }
