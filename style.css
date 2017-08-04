@@ -1,6 +1,5 @@
-
 h1{
-  padding-top:50px;
+  padding-top: 50px;
 }
 h1,h2{
   font-family: Jaldi;
@@ -62,7 +61,7 @@ a{
 }
 .gallery{
   position: absolute;
-  top:-30px;
+  top: -30px;
   left: 40%;
   right: 40%;
   text-align: center;
