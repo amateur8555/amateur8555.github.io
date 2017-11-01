@@ -65,6 +65,7 @@ a{
   border-bottom: 3px solid black;
 }
 .gallery{
+  display:none;
   position: absolute;
   top:-30px;
   left: 40%;
