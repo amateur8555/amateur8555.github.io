@@ -1,5 +1,5 @@
 h1{
-  padding-top: 50px;
+  padding-top: 60px;
 }
 h1,h2{
   font-family: Jaldi;
@@ -61,17 +61,17 @@ a{
 }
 .gallery{
   position: absolute;
-  top: -30px;
+  top: -10px;
   left: 40%;
   right: 40%;
-  padding: 20px;
+  bottom: 20px;
   text-align: center;
   width: 20%;
 }
 @media (min-width:320px) and (max-width: 480px){
   h1{
     font-size: 2em;
-    padding-top: 35px;
+    padding-top: 40px;
     margin-bottom: -0.2em;
   }
   p{

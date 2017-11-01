@@ -3,7 +3,7 @@ body{
   filter: invert(100%);
 }
 h1{
-  padding-top:50px;
+  padding-top:60px;
 }
 h1,h2{
   font-family: Jaldi;
@@ -69,13 +69,14 @@ a{
   top:-30px;
   left: 40%;
   right: 40%;
+  bottom: 20px;
   text-align: center;
   width: 20%;
 }
 @media (min-width:320px) and (max-width: 480px){
   h1{
     font-size: 2em;
-    padding-top: 35px;
+    padding-top: 45px;
     margin-bottom: -0.2em;
   }
   p{
