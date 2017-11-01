@@ -1,5 +1,5 @@
 h1{
-  padding-top:50px;
+  padding-top: 50px;
 }
 h1,h2{
   font-family: Jaldi;
@@ -42,20 +42,26 @@ div{
   right: 0.5em;
   top: -1em;
 }
+.theme :hover{
+    border-bottom: 3px solid black;
+}
 a{
   color: #000000;
   text-decoration: none;
 }
-.language{
+.google{
   font-family: Jaldi;
   letter-spacing: 3px;
   position: absolute;
   left: 0.5em;
   top: -1em;
 }
+.google :hover{
+  border-bottom: 3px solid black;
+}
 .gallery{
   position: absolute;
-  top:-30px;
+  top: -30px;
   left: 40%;
   right: 40%;
   text-align: center;
@@ -74,33 +80,56 @@ a{
     font-size: 1.9em;
   }
   a img{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
   .photo{
     padding: 20px;
   }
 }
-@media (min-width:768px){
-  p{
-    font-size: 3em;
-  }
-  h1{
-    font-size: 2.75em;
-  }
+@media(min-width:500px){
   h2{
-    font-size: 2.5em;
+    font-size: 1.6em;
   }
   h3{
+    font-size: 1.4em;
+   }
+  a img{
+    height: 45px;
+    width: 45px;
+  }
+}
+@media (min-width:768px){
+  p{
     font-size: 2em;
   }
+  h1{
+    font-size: 2.25em;
+  }
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
   a img{
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 45px;
   }
 }
 @media (min-width:1280px) {
   p{
     font-size: 2em;
   }
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+  a img{
+    height: 50px;
+    width: 50px;
+    }
+
 }

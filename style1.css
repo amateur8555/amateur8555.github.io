@@ -1,6 +1,9 @@
 body{
-  background: black;
-  color: white;
+  background-color: black;
+  filter: invert(100%);
+}
+h1{
+  padding-top:50px;
 }
 h1,h2{
   font-family: Jaldi;
@@ -20,14 +23,12 @@ p{
   font-weight: bold;
 }
 .profession{
-  border-bottom: 3px solid #ffffff;
-  padding-bottom: 0px;
+  border-bottom: 3px solid black;
+  padding-bottom: 0;
 }
 img{
-  color: white;
   display: inline-block;
   height: 40px;
-  filter: invert(100%);
   padding: 10px;
   width: 40px;
 }
@@ -45,28 +46,95 @@ div{
   right: 0.5em;
   top: -1em;
 }
+.theme :hover{
+    border-bottom: 3px solid black;
+}
 a{
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
-.language{
+.google{
   font-family: Jaldi;
   letter-spacing: 3px;
   position: absolute;
   left: 0.5em;
+  color: white;
   top: -1em;
 }
-
-@media (min-width:320px) {
+.google :hover{
+  border-bottom: 3px solid black;
+}
+.gallery{
+  position: absolute;
+  top:-30px;
+  left: 40%;
+  right: 40%;
+  text-align: center;
+  width: 20%;
+}
+@media (min-width:320px) and (max-width: 480px){
   h1{
-    font-size: 1.8em;
+    font-size: 2em;
+    padding-top: 35px;
+    margin-bottom: -0.2em;
   }
   p{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.9em;
+  }
+  a img{
+    width: 45px;
+    height: 45px;
+  }
+  .photo{
+    padding: 20px;
+  }
+}
+@media(min-width:500px){
+  h2{
+    font-size: 1.6em;
+  }
+  h3{
+    font-size: 1.4em;
+   }
+  a img{
+    height: 45px;
+    width: 45px;
+  }
+}
+@media (min-width:768px){
+  p{
+    font-size: 2em;
+  }
+  h1{
+    font-size: 2.25em;
+  }
+  h2{
+    font-size: 2em;
+  }
+  h3{
     font-size: 1.5em;
+  }
+  a img{
+    height: 45px;
+    width: 45px;
   }
 }
 @media (min-width:1280px) {
   p{
     font-size: 2em;
   }
+  h2{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.5em;
+  }
+  a img{
+    height: 50px;
+    width: 50px;
+    }
+
 }
