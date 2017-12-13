@@ -67,6 +67,7 @@ a{
   bottom: 20px;
   text-align: center;
   width: 20%;
+  
 }
 @media (min-width:320px) and (max-width: 480px){
   h1{
