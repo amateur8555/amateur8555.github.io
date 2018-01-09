@@ -47,7 +47,7 @@ div{
 }
 a{
   color: #000000;
-  text-decoration: none;
+  
 }
 .google{
   font-family: Jaldi;
@@ -136,8 +136,5 @@ a{
 
 }
 .info{
-    display:none;
-}
-h2{
-   display: none;
+    display: block;
 }
