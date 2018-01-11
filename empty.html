@@ -2,23 +2,73 @@
 <html>
 	<head>
 <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-	<style>
-body{
-background-color: black;
-color: white;
+<style>
+
+body,html{
+  font-family: Nunito;
+  height: 100%;
+  margin: 0;
 }
-		div{
-	text-align:center;
-	font-family: Dosis;
-	font-size: 3em;
-	margin-top: 20%;	
+.background{
+  background: linear-gradient(to right, #7DCFB6, #C05CC9);
+  height: 100%;
 }
-	</style>
-	<title>none</title>
+.empty{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.photo{
+  background-color: #BCB59A;
+  border-radius: 10px 10px 0 0;
+  height: 250px;
+  width: 100%;
+}
+.card{
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: block;
+  height: 500px;
+  text-align: center;
+  width: 320px;
+}
+.line{
+  border-top: 3px solid #BCB59A;
+  margin: auto;
+  width: 50px;
+}
+p{ 
+  letter-spacing: 2px;
+}
+.first{
+  margin-top: 15px;
+}
+.second{
+  margin-top: -25px;
+}
+.third{
+  margin-top: -25px;  
+}
+</style>
 	</head>
 	<body>
-		<div>
-			<h1>It's EMPTY!</h1>
-		</div>	
+	<div class="background">
+  <div class="empty">
+  <div class="card">
+    <div class="photo"></div>
+    <h1>Your Name</h1>
+    <div class="line"></div>
+    <p class="first">Photographer</p>
+    <br/>
+    <p class="second">Web Developer</p>
+    <br/>
+    <p class="third">Physics Lover</p>
+  </div>
+    </div>
+<div>
 	</body>
 </html>
